@@ -1,25 +1,26 @@
-# Eduardo Henrique
+<h1 align="center">Eduardo Henrique</h1>
 
-Desenvolvedor Full Stack em transição para arquitetura de software.
-Atualmente focado em TypeScript, NestJS, DDD e Clean Architecture.
+<p align="center">
+Backend Developer em formação <br>
+Focado em TypeScript, NestJS, DDD e Clean Architecture
+</p>
+
+---
+
+## Tecnologias
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,react,mongodb,git,github" />
+</p>
 
 ---
 
 ## Sobre mim
+
 - Dev intermediário vindo do ecossistema MERN
-- Estudando arquitetura backend profissional
-- Construindo projetos com foco em domínio e design de código
-- Objetivo: atuar como backend developer em ambientes estruturados
-
----
-
-## Stack atual
-- JavaScript / TypeScript
-- Node.js / NestJS
-- React
-- MongoDB
-- Clean Architecture
-- DDD (Domain-Driven Design)
+- Migrando para arquitetura backend profissional
+- Estudando DDD e Clean Architecture na prática
+- Objetivo: atuar como Backend Developer
 
 ---
 
@@ -32,13 +33,22 @@ Backend autoritativo de jogo de truco usando:
 - Clean Architecture
 - Use Cases e Ports
 
-Status: Em desenvolvimento por fases arquiteturais.
+Projeto desenvolvido por fases arquiteturais.
 
 ---
 
 ### Sistema de Orçamento (Benício Calhas)
-Motor de cálculo com regras explícitas de domínio.
+Motor de cálculo com regras explícitas de domínio.  
 Foco em lógica de negócio e POO.
+
+---
+
+## Estatísticas do GitHub
+
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Edunh26&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Edunh26&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
 
@@ -51,5 +61,6 @@ Foco em lógica de negócio e POO.
 ---
 
 ## Contato
-- LinkedIn:https://www.linkedin.com/in/eduardohnascimento/
+
+- LinkedIn: https://www.linkedin.com/in/eduardohnascimento/
 - Email: duufhvo@gmail.com
