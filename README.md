@@ -2,29 +2,34 @@
 
 <p align="center">
   <strong>Backend Developer em Formação</strong><br>
-  Especializando em Arquitetura de Software, DDD e Ecossistema TypeScript
+  Focado em Arquitetura de Software, DDD e Ecossistema TypeScript
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eduardohnascimento/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:duufhvo@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<br>
+---
 
 ## 👨‍💻 Sobre Mim
 
-Vindo do ecossistema MERN e com background em **gestão e liderança**, estou em plena transição de carreira com foco total no desenvolvimento **Backend**. 
+Desenvolvedor vindo do ecossistema **MERN**, com background em **gestão e liderança**, atualmente em transição para o foco total em **Backend e Arquitetura de Software**.
 
-Minha abordagem vai além de escrever código: busco entender o **domínio do problema**. Atualmente, dedico meus estudos a criar aplicações robustas, escaláveis e testáveis, aplicando conceitos avançados como **Clean Architecture** e **Domain-Driven Design (DDD)**.
+Minha abordagem vai além de implementar features: busco entender profundamente o **domínio do problema** e projetar soluções robustas, escaláveis e testáveis.
 
-* 🔭 **Foco atual:** NestJS, TypeScript Avançado e Microsserviços.
-* 🌱 **Estudando:** WebSockets, Testes Automatizados e Arquitetura Hexagonal.
-* 🎯 **Objetivo:** Atuar como Backend Developer construindo soluções de alto valor.
+Atualmente estudo e aplico na prática:
+
+- **Clean Architecture**
+- **Domain-Driven Design (DDD)**
+- **TypeScript em modo strict**
+- **Arquiteturas orientadas a domínio**
+
+**Objetivo:** atuar como Backend Developer construindo sistemas de alto valor e bem modelados.
 
 ---
 
@@ -34,7 +39,7 @@ Minha abordagem vai além de escrever código: busco entender o **domínio do pr
 
 | Backend & Core | Banco de Dados | Ferramentas & DevOps |
 | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs" /> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux" /> |
+| <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express" /> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux" /> |
 
 </div>
 
@@ -42,39 +47,73 @@ Minha abordagem vai além de escrever código: busco entender o **domínio do pr
 
 ## 🚀 Projetos em Destaque
 
-### 🃏 **Truco Paulista Backend**
-> *Backend autoritativo para jogo de cartas multiplayer.*
+### 🃏 Truco Paulista Backend
+**Backend autoritativo para jogo de cartas multiplayer em tempo real.**
 
-O projeto mais complexo do meu portfólio, onde aplico estritamente padrões de arquitetura para garantir que as regras do jogo sejam inquebráveis.
-- **Arquitetura:** Clean Architecture & DDD.
-- **Destaques:** Separação completa entre camadas (Use Cases, Entities, Ports), validação estrita de regras de negócio.
+Projeto principal do portfólio, desenvolvido como jornada de estudo em **DDD e Clean Architecture**, dividido em fases arquiteturais.
 
-<div align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/DDD-orange?style=flat" />
-</div>
-<br>
+**Principais características:**
+- Arquitetura em camadas (Domain, Application, Infrastructure, Transport)
+- Regras de jogo isoladas no Domain (sem dependência de frameworks)
+- Use Cases independentes de infraestrutura
+- Comunicação em tempo real com WebSocket
+- Persistência com PostgreSQL + Prisma
+- TypeScript em modo strict
 
-### 🏠 **Sistema de Orçamento (Benício Calhas)**
-> *Motor de cálculo com regras de domínio explícitas.*
+**Objetivo do projeto:**
+Simular um backend real de produção, com decisões arquiteturais defensáveis em entrevistas técnicas.
 
-Sistema focado em resolver um problema real de precificação, priorizando a lógica de negócio sobre o framework.
-- **Foco:** Programação Orientada a Objetos (POO) e Regras de Negócio.
+**Stack:** TypeScript · NestJS · WebSocket · PostgreSQL · Prisma · DDD
 
-<div align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/POO-blue?style=flat" />
-</div>
+---
+
+### 🚚 Agendamento de Frota
+**Sistema completo para agendamento e gestão de veículos corporativos.**
+
+Aplicação fullstack construída com foco em fluxo real de negócio, autenticação e controle de recursos.
+
+**Principais funcionalidades:**
+- Cadastro e gestão de veículos
+- Sistema de agendamento com regras de disponibilidade
+- Autenticação de usuários
+- Painel administrativo
+- API REST com persistência em banco
+
+**Aprendizados principais:**
+- Modelagem de dados para sistemas reais
+- Controle de estados e validações de negócio
+- Integração completa entre frontend e backend
+
+**Stack:** MERN (MongoDB, Express, React, Node.js)
+
+---
+
+## 📦 Outros Projetos
+
+- **Sistema de Orçamento**  
+  Motor de cálculo com regras de negócio explícitas e foco em POO.
+
+- **Todo Avançado**  
+  Aplicação fullstack com autenticação e operações CRUD completas.
 
 ---
 
 ## ⚡ Estatísticas do GitHub
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Edunh26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Edunh26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 </div>
+
+---
+
+## 🎯 Foco atual de estudos
+
+- NestJS avançado
+- Arquitetura Hexagonal
+- WebSockets e sistemas em tempo real
+- Testes automatizados
+- Microsserviços
 
 ---
 
