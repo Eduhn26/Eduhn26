@@ -1,122 +1,98 @@
-<h1 align="center">Eduardo Henrique</h1>
+<div align="center">
+  <h1>Eduardo Henrique</h1>
+  <h3>Backend Developer | Software Architecture Enthusiast</h3>
+  
+  <p>
+    <em>Focado em construir softwares robustos com DDD, Clean Architecture e TypeScript.</em>
+  </p>
 
-<p align="center">
-  <strong>Backend Developer em Formação</strong><br>
-  Focado em Arquitetura de Software, DDD e Ecossistema TypeScript
-</p>
+  <div>
+    <a href="https://www.linkedin.com/in/eduardohnascimento/" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="mailto:duufhvo@gmail.com">
+      <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+  </div>
+</div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/eduardohnascimento/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:duufhvo@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<br />
 
----
+### 👨‍💻 Sobre Mim
 
-## 👨‍💻 Sobre Mim
+> *"Minha abordagem vai além de implementar features: busco entender profundamente o **domínio do problema**."*
 
-Desenvolvedor vindo do ecossistema **MERN**, com background em **gestão e liderança**, atualmente em transição para o foco total em **Backend e Arquitetura de Software**.
+Sou um desenvolvedor em transição de carreira (ex-Engenheiro Eletricista e Gestor), trazendo uma bagagem analítica forte para o desenvolvimento de software. Atualmente, meu foco é **Backend e Arquitetura de Software**.
 
-Minha abordagem vai além de implementar features: busco entender profundamente o **domínio do problema** e projetar soluções robustas, escaláveis e testáveis.
-
-Atualmente estudo e aplico na prática:
-
-- **Clean Architecture**
-- **Domain-Driven Design (DDD)**
-- **TypeScript em modo strict**
-- **Arquiteturas orientadas a domínio**
-
-**Objetivo:** atuar como Backend Developer construindo sistemas de alto valor e bem modelados.
+Não me contento apenas com o código funcionando; busco a manutenibilidade e escalabilidade através de:
+* **Clean Architecture** & **Domain-Driven Design (DDD)**
+* **TypeScript (Strict Mode)** & **POO Sólida**
+* **Testes Automatizados**
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 <div align="center">
-
-| Backend & Core | Banco de Dados | Ferramentas & DevOps |
-| :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express" /> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux" /> |
-
+  <table>
+    <tr>
+      <td align="center" width="90"><strong>Core</strong></td>
+      <td align="center" width="90"><strong>Backend</strong></td>
+      <td align="center" width="90"><strong>Database</strong></td>
+      <td align="center" width="90"><strong>DevOps</strong></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=ts,js" height="40" alt="Core" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express" height="40" alt="Backend" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" height="40" alt="DB" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=docker,git,linux" height="40" alt="DevOps" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-## 🚀 Projetos em Destaque
+### 🚀 Projeto em Destaque
 
-### 🃏 Truco Paulista Backend
-**Backend autoritativo para jogo de cartas multiplayer em tempo real.**
+#### 🃏 [Truco Paulista Backend](https://github.com/Eduhn26/SEU-REPOSITORIO-AQUI)
+**Backend autoritativo para jogo multiplayer em tempo real.**
 
-Projeto principal do portfólio, desenvolvido como jornada de estudo em **DDD e Clean Architecture**, dividido em fases arquiteturais.
+Este é meu laboratório principal de estudos em **Arquitetura de Software**. O objetivo é simular um ambiente de produção real, com decisões arquiteturais defensáveis (não apenas "fazer funcionar").
 
-**Principais características:**
-- Arquitetura em camadas (Domain, Application, Infrastructure, Transport)
-- Regras de jogo isoladas no Domain (sem dependência de frameworks)
-- Use Cases independentes de infraestrutura
-- Comunicação em tempo real com WebSocket
-- Persistência com PostgreSQL + Prisma
-- TypeScript em modo strict
-
-**Objetivo do projeto:**
-Simular um backend real de produção, com decisões arquiteturais defensáveis em entrevistas técnicas.
-
-**Stack:** TypeScript · NestJS · WebSocket · PostgreSQL · Prisma · DDD
+* **Arquitetura:** Clean Architecture (Camadas isoladas: Domain, Application, Infra).
+* **Destaque:** Regras de negócio puras no Domínio, sem dependência de Frameworks.
+* **Tech:** NestJS, WebSockets, PostgreSQL, Prisma.
 
 ---
 
-### 🚚 Agendamento de Frota
-**Sistema completo para agendamento e gestão de veículos corporativos.**
+### 📦 Outros Projetos
 
-Aplicação fullstack construída com foco em fluxo real de negócio, autenticação e controle de recursos.
-
-**Principais funcionalidades:**
-- Cadastro e gestão de veículos
-- Sistema de agendamento com regras de disponibilidade
-- Autenticação de usuários
-- Painel administrativo
-- API REST com persistência em banco
-
-**Aprendizados principais:**
-- Modelagem de dados para sistemas reais
-- Controle de estados e validações de negócio
-- Integração completa entre frontend e backend
-
-**Stack:** MERN (MongoDB, Express, React, Node.js)
+| Projeto | Descrição | Stack Principal |
+| :--- | :--- | :--- |
+| **🚚 Agendamento de Frota** | Sistema completo para gestão de veículos corporativos com fluxo real de negócio e autenticação. | `MERN Stack` |
+| **🧮 Sistema de Orçamento** | Motor de cálculo com regras de negócio explícitas e foco intenso em Orientação a Objetos. | `POO` `Logic` |
+| **✅ Todo Avançado** | Aplicação fullstack com autenticação robusta e operações CRUD completas. | `Fullstack` |
 
 ---
 
-## 📦 Outros Projetos
-
-- **Sistema de Orçamento**  
-  Motor de cálculo com regras de negócio explícitas e foco em POO.
-
-- **Todo Avançado**  
-  Aplicação fullstack com autenticação e operações CRUD completas.
-
----
-
-## ⚡ Estatísticas do GitHub
+### ⚡ GitHub Stats
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <a href="https://github.com/Eduhn26">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight"/>
+  </a>
 </div>
+<br />
 
----
-
-## 🎯 Foco atual de estudos
-
-- NestJS avançado
-- Arquitetura Hexagonal
-- WebSockets e sistemas em tempo real
-- Testes automatizados
-- Microsserviços
-
----
-
-<p align="center">
-  Feito com 💙 por Eduardo Henrique
-</p>
+<div align="center">
+  <sub>Feito com 💙 por Eduardo Henrique</sub>
+</div>
