@@ -41,9 +41,8 @@ Atualmente estudo e aplico na prática:
 
 ## 🎓 Formação
 
-- **Curso Técnico em Análise e Desenvolvimento de Sistemas**  
-  Edunov – Noturno | 1º Ano (em andamento)  
-  *Foco em fundamentos de linguagem, análise e interpretação de textos em português.*
+- Curso Técnico em T.I (completo)
+ 
 
 ---
 
