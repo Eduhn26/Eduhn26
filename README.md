@@ -12,6 +12,12 @@
   <a href="mailto:duufhvo@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://github.com/Eduhn26">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfólio-FF5722?style=for-the-badge&logo=firefox&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -33,6 +39,14 @@ Atualmente estudo e aplico na prática:
 
 ---
 
+## 🎓 Formação
+
+- **Curso Técnico em Análise e Desenvolvimento de Sistemas**  
+  Edunov – Noturno | 1º Ano (em andamento)  
+  *Foco em fundamentos de linguagem, análise e interpretação de textos em português.*
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -47,7 +61,8 @@ Atualmente estudo e aplico na prática:
 
 ## 🚀 Projetos em Destaque
 
-### 🃏 Truco Paulista Backend
+### 🃏 Truco Paulista Backend  
+[![Repo](https://img.shields.io/badge/-Código_Fonte-181717?style=flat-square&logo=github)](https://github.com/Eduhn26/truco-paulista-backend)  
 **Backend autoritativo para jogo de cartas multiplayer em tempo real.**
 
 Projeto principal do portfólio, desenvolvido como jornada de estudo em **DDD e Clean Architecture**, dividido em fases arquiteturais.
@@ -60,14 +75,15 @@ Projeto principal do portfólio, desenvolvido como jornada de estudo em **DDD e 
 - Persistência com PostgreSQL + Prisma
 - TypeScript em modo strict
 
-**Objetivo do projeto:**
+**Objetivo do projeto:**  
 Simular um backend real de produção, com decisões arquiteturais defensáveis em entrevistas técnicas.
 
-**Stack:** TypeScript · NestJS · WebSocket · PostgreSQL · Prisma · DDD
+**Stack:** TypeScript · NestJS · WebSocket · PostgreSQL · Prisma · DDD  
 
 ---
 
-### 🚚 Agendamento de Frota
+### 🚚 Agendamento de Frota  
+[![Repo](https://img.shields.io/badge/-Código_Fonte-181717?style=flat-square&logo=github)](https://github.com/Eduhn26/agendamento-frota)  
 **Sistema completo para agendamento e gestão de veículos corporativos.**
 
 Aplicação fullstack construída com foco em fluxo real de negócio, autenticação e controle de recursos.
@@ -84,17 +100,19 @@ Aplicação fullstack construída com foco em fluxo real de negócio, autentica�
 - Controle de estados e validações de negócio
 - Integração completa entre frontend e backend
 
-**Stack:** MERN (MongoDB, Express, React, Node.js)
+**Stack:** MERN (MongoDB, Express, React, Node.js)  
 
 ---
 
 ## 📦 Outros Projetos
 
 - **Sistema de Orçamento**  
-  Motor de cálculo com regras de negócio explícitas e foco em POO.
+  Motor de cálculo com regras de negócio explícitas e foco em POO.  
+  [![Repo](https://img.shields.io/badge/-Código-181717?style=flat-square&logo=github)](https://github.com/Eduhn26/sistema-orcamento)
 
 - **Todo Avançado**  
-  Aplicação fullstack com autenticação e operações CRUD completas.
+  Aplicação fullstack com autenticação e operações CRUD completas.  
+  [![Repo](https://img.shields.io/badge/-Código-181717?style=flat-square&logo=github)](https://github.com/Eduhn26/todo-avancado)
 
 ---
 
