@@ -1,141 +1,103 @@
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════╗
-║         EDUARDO HENRIQUE — BACKEND ENGINEER          ║
-║    TypeScript · DDD · Clean Architecture · NestJS    ║
-╚══════════════════════════════════════════════════════╝
-```
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Eduardo+%F0%9F%91%8B;Backend+Engineer;Domain-Driven+Design+%7C+Clean+Architecture;Building+systems+with+intention." alt="Typing SVG" />
 
-<a href="https://www.linkedin.com/in/eduardohnascimento/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:duufhvo@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://github.com/Eduhn26">
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duufhvo@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/Eduhn26)
+![Profile Views](https://komarev.com/ghpvc/?username=Eduhn26&style=flat-square&color=58A6FF)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+### 👨‍💻 About me
 
-Backend developer focused on **architecture-oriented system design**, with solid foundations in **Domain-Driven Design (DDD)** and **Clean Architecture**.
+Backend developer from Campinas, BR — focused on **architecture that scales and code that communicates**.
 
-My work isn't just about making things work — it's about making them **right**:
+I care about systems that are readable 6 months later, testable without a running server, and resilient by design — not by luck.
 
-```
-Domain integrity    →  Explicit invariants, no leaking state
-Boundary discipline →  Layers that don't know each other's business
-Error semantics     →  Meaningful failures, not silent bugs
-Incremental design  →  Architecture that evolves without breaking
-```
-
-Started in the MERN ecosystem. Now building robust, typed, layered backend systems in TypeScript — with a strong preference for systems that are **readable in 6 months** and **testable without a running server**.
+Started in the MERN ecosystem. Now building layered, typed, event-driven backends with TypeScript.
 
 ---
 
-## 🧠 Engineering Principles
-
-| Principle | What it means in practice |
-|---|---|
-| **Domain-first** | Business rules live in the domain — never in controllers or DB schemas |
-| **Strict boundaries** | No leakage between layers. Infrastructure knows Application; Domain knows nothing |
-| **Stateless auth** | JWT with role-based guards — no session state on the server |
-| **Semantic errors** | `AppError` with status codes. No silent 500s with no context |
-| **Phase-based evolution** | Architecture that grows by design, not by accident |
-
----
-
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 <div align="center">
 
-| Backend & Core | Databases | Tooling |
-| :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express" /> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux" /> |
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+### 🚀 Featured Projects
 
-### 🃏 [Truco Paulista Backend](https://github.com/Eduhn26/truco-paulista-backend)
-
-> Authoritative multiplayer backend for Truco Paulista — built phase by phase with architectural discipline.
-
-```
-Domain      →  Match, Hand, Round, Card, Score — pure TypeScript, zero framework deps
-Application →  Use Cases (CreateMatch, PlayCard, JoinMatch, StartHand, GetRanking)
-Infra       →  PrismaMatchRepository (PostgreSQL) + InMemoryMatchRepository (tests)
-Transport   →  Socket.IO GameGateway — stateless, event-driven, real-time
-```
-
-**What makes it different:**
-- Domain tested **without NestJS, without Prisma, without mocks** — just pure logic
-- State persisted as **snapshot** in PostgreSQL — survives restarts
-- Layered architecture enforced from **phase 0**, not retrofitted
-- WebSocket gateway is **stateless** — domain lives in the DB, not in memory
-
-**Stack:** `TypeScript` · `NestJS` · `Socket.IO` · `PostgreSQL` · `Prisma` · `Jest`  
-**Pattern:** `Domain → Application → Infrastructure → Gateway`
-
----
-
-### 🚚 [Fleet Scheduling System](https://github.com/Eduhn26/agendamento-frota)
-
-> Corporate vehicle scheduling platform with real-world business rules and clean layered architecture.
-
-```
-Auth        →  JWT + role-based guards (admin / user)
-Validation  →  Zod schemas at the boundary — invalid input never reaches the service
-Errors      →  AppError with semantic status codes — no 500 catchalls
-Business    →  Rental period limits, conflict detection, maintenance state machine
-Separation  →  Routes → Middleware → Controllers → Services → Models
-```
-
-**What makes it different:**
-- **Conflict detection** at service level — not just DB constraints
-- **State machine** for vehicle status (available → rented → maintenance)
-- **Refactored v2** with full Routes → Controllers → Services separation
-- Global error handler — one place, consistent behavior
-
-**Stack:** `Node.js` · `Express` · `MongoDB` · `Mongoose` · `Zod` · `JWT`  
-**Pattern:** `Routes → Middleware → Controllers → Services → Models`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🃏 Truco Paulista Backend</h3>
+      <p>Authoritative multiplayer backend for Truco Paulista — built phase by phase, from pure domain to real-time WebSocket gameplay with PostgreSQL persistence.</p>
+      <p><strong>Domain → Application → Infrastructure → Transport</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+      </p>
+      <a href="https://github.com/Eduhn26/truco-paulista-backend">View Repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚚 Fleet Scheduling System</h3>
+      <p>Corporate vehicle scheduling platform with real business rules — conflict detection, maintenance state machine, JWT auth, and clean layer separation.</p>
+      <p><strong>Routes → Middleware → Controllers → Services → Models</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
+      </p>
+      <a href="https://github.com/Eduhn26/agendamento-frota">View Repository →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+### 📊 Stats
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&hide=issues"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Eduhn26&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
 </div>
 
 ---
 
-## 🎯 Current Focus
+### 🎯 Currently focused on
 
-```typescript
-const currentFocus = [
-  'NestJS advanced patterns (Guards, Interceptors, Pipes)',
-  'Hexagonal Architecture in production',
-  'Automated testing strategies (unit → integration → e2e)',
-  'Distributed systems fundamentals',
-  'Observability: structured logging, health checks, metrics',
-] as const;
-```
+- Hexagonal Architecture patterns
+- Automated testing (unit → integration → e2e)
+- Distributed systems fundamentals
+- Observability & resilience
 
 ---
 
 <div align="center">
-
-```
-Engineering systems with intention, not just code.
-```
-
+  <i>Building systems with intention, not just code.</i>
 </div>
