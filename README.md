@@ -63,7 +63,7 @@ Background in the MERN ecosystem, now building layered, domain-driven backends w
         <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
         <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
       </p>
-      <a href="https://github.com/Eduhn26/truco-paulista-backend">View Repository →</a>
+      <a href="https://github.com/Eduhn26/Truco-Paulista2026">View Repository →</a>
     </td>
     <td width="50%" valign="top">
       <h3>🚚 Fleet Scheduling System</h3>
@@ -76,7 +76,7 @@ Background in the MERN ecosystem, now building layered, domain-driven backends w
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
         <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
       </p>
-      <a href="https://github.com/Eduhn26/agendamento-frota">View Repository →</a>
+      <a href="https://github.com/Eduhn26/Fleet-Vehicle-Scheduling">View Repository →</a>
     </td>
   </tr>
 </table>
