@@ -1,4 +1,4 @@
-<h1 align="center">Eduardo Henrique</h1>
+<h1 align="center">Hi there, I'm Eduardo Henrique 👋</h1>
 
 <p align="center">
   <strong>Backend Engineer • Architecture & Domain-Driven Design</strong><br>
@@ -7,13 +7,13 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eduardohnascimento/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:duufhvo@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://github.com/Eduhn26">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
@@ -21,27 +21,15 @@
 
 ## 👨‍💻 About Me
 
-Backend developer specialized in **architecture-oriented system design**, with strong foundations in **Domain-Driven Design (DDD)** and **Clean Architecture**.
+I'm a backend engineer specialized in **architecture-oriented system design**, with strong foundations in **Domain-Driven Design (DDD)** and **Clean Architecture**.
 
-My focus goes beyond implementing features — I design systems with:
+My focus goes beyond just delivering features — I strive to design systems with:
+- 🏗️ **Explicit domain modeling** & strict boundary enforcement (no leakage across layers)
+- 🔄 **Predictable state transitions**
+- 🛡️ **Defensive error handling** & semantic standardization
+- ⏳ **Long-term maintainability** & incremental architecture evolution
 
-- Explicit domain modeling
-- Clear architectural boundaries
-- Predictable state transitions
-- Defensive error handling
-- Long-term maintainability
-
-Background in MERN ecosystem, now focused on building robust backend systems using TypeScript and structured architectural patterns.
-
----
-
-## 🧠 Engineering Principles
-
-- Domain-first thinking
-- Strict boundary enforcement (no leakage across layers)
-- Stateless authentication strategies
-- Semantic error standardization
-- Incremental architecture evolution
+*Coming from a strong MERN ecosystem background, I am now heavily focused on building robust backend systems using **TypeScript** and structured architectural patterns.*
 
 ---
 
@@ -49,7 +37,7 @@ Background in MERN ecosystem, now focused on building robust backend systems usi
 
 <div align="center">
 
-| Backend & Core | Databases | Tooling |
+| ⚙️ Backend & Core | 🗄️ Databases | 🧰 Tooling & DevOps |
 | :---: | :---: | :---: |
 | <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express" /> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma" /> | <img src="https://skillicons.dev/icons?i=git,github,docker,linux" /> |
 
@@ -59,40 +47,30 @@ Background in MERN ecosystem, now focused on building robust backend systems usi
 
 ## 🚀 Featured Projects
 
-### 🃏 Truco Paulista Backend  
-Authoritative multiplayer backend built using layered architecture.
+### 🃏 [Truco Paulista Backend](https://github.com/Eduhn26/truco-paulista-backend)
+*Authoritative multiplayer backend built using layered architecture.*
 
-**Highlights:**
-- Domain layer fully isolated from framework dependencies
-- Use Cases independent from infrastructure
-- Real-time communication via WebSocket
-- PostgreSQL persistence with Prisma
-- TypeScript strict mode
-- Phase-based architectural evolution
+* **Highlights:** Domain layer fully isolated from framework dependencies, Use Cases independent from infrastructure, Real-time communication via WebSocket, PostgreSQL persistence with Prisma.
+* **Stack:** TypeScript • NestJS • WebSocket • PostgreSQL • Prisma
+> **Architecture Flow:** `Domain` ➔ `Application` ➔ `Infrastructure` ➔ `Transport`
 
-**Architecture:** Domain → Application → Infrastructure → Transport  
-**Stack:** TypeScript · NestJS · WebSocket · PostgreSQL · Prisma  
+### 🚚 [Fleet Scheduling System](https://github.com/Eduhn26/agendamento-frota)
+*Corporate vehicle scheduling platform with real-world business rules.*
 
-Repository:  
-https://github.com/Eduhn26/truco-paulista-backend
+* **Highlights:** JWT authentication with role-based authorization, strict validation boundary using Zod, global error handler with semantic mapping, and rental state transition guards.
+* **Stack:** Node.js • Express • MongoDB • Zod
+> **Architecture Flow:** `Routes` ➔ `Middleware` ➔ `Controllers` ➔ `Services` ➔ `Models`
 
 ---
 
-### 🚚 Fleet Scheduling System  
-Corporate vehicle scheduling platform with real-world business rules.
+## 🎯 Current Focus & Learning
 
-**Highlights:**
-- JWT authentication with role-based authorization
-- Strict validation boundary using Zod
-- Global error handler with semantic mapping
-- Rental state transition guards
-- Clean separation between Services and HTTP layer
-
-**Architecture:** Routes → Middleware → Controllers → Services → Models  
-**Stack:** Node.js · Express · MongoDB · Zod  
-
-Repository:  
-https://github.com/Eduhn26/agendamento-frota
+🌱 **Currently diving deep into:**
+- Advanced NestJS patterns
+- Hexagonal Architecture
+- Automated testing strategies
+- Distributed systems fundamentals
+- Observability & system resilience
 
 ---
 
@@ -103,18 +81,8 @@ https://github.com/Eduhn26/agendamento-frota
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 </div>
 
----
-
-## 🎯 Current Focus
-
-- Advanced NestJS patterns
-- Hexagonal Architecture
-- Automated testing strategies
-- Distributed systems fundamentals
-- Observability & system resilience
-
----
+<br>
 
 <p align="center">
-  Engineering systems with intention, not just code.
+  <em>Engineering systems with intention, not just code.</em>
 </p>
