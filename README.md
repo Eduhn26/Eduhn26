@@ -32,8 +32,9 @@ Currently working in the MERN ecosystem and migrating toward **TypeScript + Nest
   <tr>
     <td width="50%" valign="top">
       <h3>♟️ Truco Paulista — Multiplayer Backend</h3>
-      <p>Authoritative game server built phase by phase — from a pure Domain layer to real-time WebSocket gameplay with PostgreSQL persistence.</p>
-      <p>The interesting part isn't the game rules. It's keeping them completely isolated from the transport layer as the system grows.</p>
+      <p>Authoritative game server built with <strong>NestJS + TypeScript (strict) + DDD + Clean Architecture</strong>.</p>
+      <p>The domain has zero external dependencies — no NestJS, no Prisma, no Socket.IO inside the core. Game rules are testable without a running server or database.</p>
+      <p>Currently at Phase 5: real 2v2 multiplayer via WebSocket, token-based reconnection preserving seat, and ELO ranking persisted in PostgreSQL.</p>
       <br/>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
@@ -66,10 +67,10 @@ Currently working in the MERN ecosystem and migrating toward **TypeScript + Nest
 ## Currently
 
 ```
-Studying    →  NestJS module patterns and dependency injection boundaries
-Applying    →  Hexagonal architecture to real domains (not toy examples)
-Refining    →  Test strategy: unit → integration → e2e, each with a clear purpose
-Migrating   →  MERN codebase toward TypeScript with strict type coverage
+Building    →  Truco Paulista: authoritative multiplayer backend (NestJS + DDD + Clean Architecture)
+Applying    →  TypeScript at max strictness — noUncheckedIndexedAccess, exactOptionalPropertyTypes
+Practicing  →  Domain isolation: zero framework dependencies inside the core domain layer
+Next up     →  Phase 6: observability layer (structured logging, metrics, healthcheck)
 ```
 
 ---
