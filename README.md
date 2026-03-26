@@ -5,7 +5,7 @@
 <p><strong>Backend Engineer</strong> &nbsp;·&nbsp; Campinas, Brazil &nbsp;·&nbsp; Open to remote</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
-[![Email](https://img.shields.io/badge/duufhvo@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
+[![Email](https://img.shields.io/badge/duuhflow@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
 ![Views](https://komarev.com/ghpvc/?username=Eduhn26&style=flat-square&color=6e7681&label=views)
 
 </div>
