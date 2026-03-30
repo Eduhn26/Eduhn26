@@ -2,7 +2,7 @@
 
 # Eduardo Henrique
 
-**Backend Engineer** · Campinas, Brazil · Open to remote opportunities
+**Backend Engineer** · Campinas, Brazil · Open to opportunities
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
 [![Email](https://img.shields.io/badge/Email-duuhflow@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
