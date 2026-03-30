@@ -1,26 +1,37 @@
 <div align="center">
 
-<h1>Eduardo Henrique</h1>
+# Eduardo Henrique
 
-<p><strong>Backend Engineer</strong> &nbsp;·&nbsp; Campinas, Brazil &nbsp;·&nbsp; Open to remote</p>
+**Backend Engineer** · Campinas, Brazil · Open to remote opportunities
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
-[![Email](https://img.shields.io/badge/duuhflow@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
+[![Email](https://img.shields.io/badge/Email-duuhflow@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
 ![Views](https://komarev.com/ghpvc/?username=Eduhn26&style=flat-square&color=6e7681&label=views)
 
 </div>
 
-<br/>
+---
 
-I build backends that are **easy to reason about** — clear state transitions, business rules in one place, errors that mean something.
+## About me
 
-Migrating from the MERN ecosystem toward **TypeScript + NestJS** with strict architectural boundaries. My approach: start with a clean domain layer, add complexity only when the system earns it.
+I build backends focused on **clear boundaries, predictable state transitions, and business rules that stay in the right place**.
 
-<br/>
+My background started in the **MERN ecosystem**, and today I am moving deeper into **TypeScript + NestJS + DDD + Clean Architecture**, with a strong focus on:
+
+- domain isolation
+- explicit contracts
+- real-time backend systems
+- testability without framework dependence
+- architecture that can be defended in interviews and production discussions
+
+My rule of thumb is simple:
+
+> Keep the core clean.  
+> Add complexity only when the system earns it.
 
 ---
 
-<h3>Stack</h3>
+## Core stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -37,79 +48,84 @@ Migrating from the MERN ecosystem toward **TypeScript + NestJS** with strict arc
 
 ---
 
-<h3>Projects</h3>
+## Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### ♠ Truco Paulista — Authoritative Multiplayer Backend
 
-**♠ &nbsp;Truco Paulista — Multiplayer Backend**
+A real-time multiplayer backend built with **NestJS, TypeScript strict, DDD, and Clean Architecture**.
 
-Authoritative game server built with **NestJS + DDD + Clean Architecture**. The domain has zero external dependencies — no NestJS, no Prisma, no Socket.IO in the core.
+This project is where I practice what matters most to me architecturally: **a pure domain layer, explicit boundaries, and infrastructure that stays outside the core**.
 
-**10 phases shipped:**
-- Real 2v2 multiplayer via WebSocket
+**Highlights**
+- Real-time multiplayer with WebSocket
 - Google & GitHub OAuth + app-issued auth token
-- ELO ranking persisted in PostgreSQL
-- Docker multi-stage + production on Render
+- Ranking persisted in PostgreSQL
+- Dockerized runtime + production deploy on Render
 - React + Vite frontend with authenticated lobby
+- Bot architecture prepared for future AI evolution
 
-![TS](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+**What makes it strong**
+- Domain has zero external framework dependencies
+- Bot decision flow isolated behind an application port
+- Architecture evolved incrementally across phases instead of being rushed as a one-shot build
 
-[**Repository →**](https://github.com/Eduhn26/Truco-Paulista2026) &nbsp; [**Live API →**](https://truco-paulista-backend.onrender.com/health/live)
+**Links**
+- [Repository](https://github.com/Eduhn26/Truco-Paulista2026)
+- [Live API](https://truco-paulista-backend.onrender.com/health/live)
 
-</td>
-<td width="50%" valign="top">
+**Stack**
+`TypeScript` `NestJS` `PostgreSQL` `Prisma` `Socket.IO` `Docker` `Jest`
 
-**🚗 &nbsp;Fleet Vehicle Scheduling**
+---
 
-Corporate vehicle scheduling system with full reservation lifecycle. Built across **12 incremental phases** to simulate how real systems evolve under pressure.
+### 🚗 Fleet Vehicle Scheduling
 
-**What's inside:**
+A backend-focused vehicle reservation system built to simulate how a real internal business platform evolves over time.
+
+This project is strong not because it is “just CRUD,” but because it models a **full reservation lifecycle**, introduces **conflict detection**, and evolves through **multiple hardening phases**.
+
+**Highlights**
 - Reservation conflict detection engine
-- Admin approval & multi-role access control
-- Mileage tracking + maintenance auto-triggers
-- Full test coverage across lifecycle phases
+- Admin approval and role-based flows
+- Mileage tracking and maintenance triggers
+- Test coverage across lifecycle rules
+- CI, Docker, and operational hardening mindset
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+**What makes it strong**
+- Built in incremental phases to simulate real software evolution
+- Focused on business rules, not only endpoints
+- Good example of backend thinking in a corporate use case
 
-[**Repository →**](https://github.com/Eduhn26/Fleet-Vehicle-Scheduling)
+**Links**
+- [Repository](https://github.com/Eduhn26/Fleet-Vehicle-Scheduling)
 
-</td>
-</tr>
-</table>
-
----
-
-<h3>Currently</h3>
-
-| | |
-|---|---|
-| **Building** | Truco Paulista — Phase 11: 1v1 mode + bot seat filling |
-| **Applying** | TypeScript at max strictness — `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes` |
-| **Practicing** | Domain isolation: zero framework dependencies inside the core |
-| **Reading** | Domain-Driven Design (Evans) · Clean Architecture (Martin) |
-| **Next** | Bot architecture + public matchmaking |
+**Stack**
+`Node.js` `Express` `MongoDB` `Jest` `Docker`
 
 ---
 
-<h3>Principles I actually follow</h3>
+## What I am sharpening now
 
-> The domain owns the rules. Infrastructure is a detail.<br/>
-> If you can't test it without the framework, the boundary is wrong.<br/>
-> Errors should mean something — generic 500s are a design failure.<br/>
-> Add complexity only when the system earns it.<br/>
-> Document the decision, not just the code.
+- TypeScript with strict settings as a design tool
+- NestJS with cleaner architectural boundaries
+- Domain-driven modeling in real backend systems
+- Real-time backend orchestration
+- Bot/AI-ready backend architecture
 
 ---
 
-<h3>Stats</h3>
+## Principles I actually follow
+
+- The domain owns the rules
+- Infrastructure is a detail, not the center of the design
+- If it cannot be tested without the framework, the boundary is probably wrong
+- Errors should communicate meaning, not just failure
+- Complexity should be introduced gradually and intentionally
+- Architecture should be explainable, not just functional
+
+---
+
+## GitHub stats
 
 <div align="center">
 
