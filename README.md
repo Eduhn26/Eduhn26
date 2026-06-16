@@ -2,167 +2,155 @@
 
 # Eduardo Henrique
 
-### Backend Engineer — Typed Systems · Domain-Driven Design · Real-Time Architecture
+### Backend-focused Developer · TypeScript · NestJS · DDD · Real-time Systems
 
-📍 Campinas, Brazil · Open to opportunities
+📍 Campinas, Brazil · Open to backend / fullstack opportunities
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
-[![Email](https://img.shields.io/badge/duuhflow@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
-![Views](https://komarev.com/ghpvc/?username=Eduhn26&style=for-the-badge&color=6e7681&label=Profile+Views)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
+[![Email](https://img.shields.io/badge/duuhflow@gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:duuhflow@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Eduhn26\&style=for-the-badge\&color=6e7681\&label=Profile+Views)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-## 🧠 About me
+## About me
 
-I build backends where **business rules live in the domain, not in the framework**.
+I am a backend-focused developer building my transition into technology through real projects, not only courses.
 
-Started in the **MERN ecosystem** — today I work with **TypeScript + NestJS + DDD + Clean Architecture**, focused on systems that are testable, explicit, and production-ready.
+My main focus today is **TypeScript, NestJS, Clean Architecture, Domain-Driven Design, WebSocket communication, tests, and backend systems where business rules are explicit**.
 
-> *Keep the core clean. Add complexity only when the system earns it.*
+I like projects that force me to think about:
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+* how the domain should behave
+* where business rules should live
+* how to keep the frontend from becoming the source of truth
+* how to test behavior without depending on the framework
+* how to evolve a system in phases without rewriting everything from zero
 
-## ⚡ Core Stack
+Before tech, I built a long professional path in an operational environment. That background shaped the way I study software: I care about responsibility, clarity, process, and systems that can be explained.
+
+> I am not trying to build perfect projects.
+> I am trying to build projects that show how I think.
+
+---
+
+## Main stack
 
 <div align="center">
 
-| Backend | Database | Infra & Testing | Frontend |
-|:-------:|:--------:|:---------------:|:--------:|
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-| ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) | |
-| ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | |
-| ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) | | | |
-| ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white) | | | |
+|                                                      Backend                                                      |                                                      Database                                                     |                                              Frontend                                              |                                                       Tools                                                      |
+| :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react\&logoColor=black) |       ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)      |
+|     ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)    |      ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)     |   ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white)  |          ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square\&logo=jest\&logoColor=white)         |
+|       ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square\&logo=nestjs\&logoColor=white)       |       ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square\&logo=prisma\&logoColor=white)       |                                                                                                    |        ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)        |
+|      ![Express](https://img.shields.io/badge/Express-000000?style=flat-square\&logo=express\&logoColor=white)     |                                                                                                                   |                                                                                                    | ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square\&logo=socketdotio\&logoColor=white) |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
-## 🏗️ Featured Projects
+## Featured projects
 
-### ♠️ [Truco Paulista — Authoritative Multiplayer Backend](https://github.com/Eduhn26/Truco-Paulista2026)
+### ♠️ [Truco Paulista](https://github.com/Eduhn26/Truco-Paulista2026)
 
-> Real-time multiplayer backend · NestJS · TypeScript strict · DDD · Clean Architecture
+A real-time multiplayer Truco Paulista project built as an incremental backend-first study.
 
-<table>
-<tr>
-<td width="50%">
+This project started as a way to practice backend architecture, but it grew into a complete product loop with authentication, ranking, replay/history, bots, 1v1, 2v2, a React frontend, and a polished match experience.
 
-**Architecture decisions**
-- 🧩 Pure domain layer — zero framework dependencies
-- 🔌 Bot decision flow behind an application port
-- 📐 Evolved incrementally across phases, not a one-shot build
+**What I practiced deeply here:**
 
-</td>
-<td width="50%">
+* Domain-Driven Design with a pure domain layer
+* NestJS application boundaries
+* WebSocket event orchestration with Socket.IO
+* PostgreSQL persistence with Prisma
+* Google/GitHub OAuth authentication
+* public/private match state projection
+* bot decision architecture behind application ports
+* partner signals and bot interaction in 2v2
+* Jest coverage across domain, application, gateway, and infrastructure
 
-**Features**
-- ⚡ Real-time multiplayer via WebSocket
-- 🔐 Google & GitHub OAuth + app-issued token
-- 🏆 Ranking persisted in PostgreSQL
-- 🐳 Dockerized + deployed on Render
-- 🎮 React + Vite frontend with authenticated lobby
-- 🤖 Bot architecture ready for AI evolution
+**Why this project matters to me**
 
-</td>
-</tr>
-</table>
+Truco is not a simple CRUD problem.
+It has turns, teams, hidden information, scoring, hand lifecycle, card hierarchy, betting escalation, bots, and real-time state.
 
-`TypeScript` `NestJS` `PostgreSQL` `Prisma` `Socket.IO` `Docker` `Jest`
+That made it a good project to practice how backend architecture behaves under pressure.
 
-🔗 [Live API](https://truco-paulista-backend.onrender.com/health/live)
+`TypeScript` `NestJS` `PostgreSQL` `Prisma` `Socket.IO` `React` `Docker` `Jest`
+
+[Live API](https://truco-paulista-backend.onrender.com/health/live)
 
 ---
 
 ### 🚗 [Fleet Vehicle Scheduling](https://github.com/Eduhn26/Fleet-Vehicle-Scheduling)
 
-> Backend-focused vehicle reservation system · Business lifecycle modeling · Conflict detection
+A vehicle scheduling system focused on reservation rules, approval flow, and backend organization.
 
-<table>
-<tr>
-<td width="50%">
+This project helped me practice business rule modeling in a more corporate/internal-system context.
 
-**Architecture decisions**
-- 📈 Built in incremental phases — simulates real software evolution
-- 🎯 Focused on business rules, not just endpoints
-- 🏢 Models a corporate internal platform use case
+**Main points:**
 
-</td>
-<td width="50%">
+* reservation conflict validation
+* admin approval flow
+* role-based access
+* vehicle availability rules
+* mileage and maintenance triggers
+* service-layer organization
+* MongoDB persistence
+* backend-first implementation
 
-**Features**
-- 🔍 Reservation conflict detection engine
-- ✅ Admin approval & role-based flows
-- 🛠️ Mileage tracking & maintenance triggers
-- 🧪 Test coverage across lifecycle rules
-- 🐳 CI, Docker, and operational hardening
+`Node.js` `Express` `MongoDB` `React` `Jest` `Docker`
 
-</td>
-</tr>
-</table>
+---
 
-`Node.js` `Express` `MongoDB` `Jest` `Docker`
+## What I am currently improving
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+| Focus                  | Why it matters to me                                                        |
+| :--------------------- | :-------------------------------------------------------------------------- |
+| TypeScript strict mode | To use the type system as part of the design, not only as error prevention  |
+| NestJS architecture    | To organize backend responsibilities with clearer boundaries                |
+| Domain-Driven Design   | To model behavior instead of spreading rules across controllers             |
+| Testing                | To validate decisions and protect the system during refactors               |
+| Real-time systems      | To understand state synchronization, events, and multiplayer flows          |
+| Python / data / AI     | To expand my backend path toward automation, analysis, and AI-ready systems |
 
-## 🎯 Currently sharpening
+---
 
-<div align="center">
+## How I like to build
 
-| Focus | Why |
-|:------|:----|
-| TypeScript strict mode | Using the type system as a design tool, not just safety net |
-| NestJS + Clean Architecture | Cleaner module boundaries, explicit dependency direction |
-| Domain-Driven Design | Modeling real business complexity in backend systems |
-| Real-time orchestration | WebSocket state management at scale |
-| Bot/AI-ready backends | Designing ports that future AI agents can plug into |
+* Start simple, but do not ignore architecture.
+* Keep business rules close to the domain.
+* Avoid putting too much logic in controllers.
+* Use tests to explain behavior.
+* Refactor only when the system has already shown the need.
+* Prefer small phases over big rewrites.
+* Make technical decisions that can be explained later.
 
-</div>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 💡 Principles I follow
-
-> **The domain owns the rules** — infrastructure is a detail, not the center.
->
-> **If it can't be tested without the framework**, the boundary is probably wrong.
->
-> **Errors communicate meaning**, not just failure.
->
-> **Complexity is introduced gradually** — only when the system earns it.
->
-> **Architecture should be explainable**, not just functional.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📊 GitHub Stats
+## GitHub stats
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&hide=issues&count_private=true"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Eduhn26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&hide=issues&count_private=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduhn26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
 
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Eduhn26&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
 
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Eduhn26&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF"/>
-
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <div align="center">
 
-### 💬 Let's connect
+### Let's connect
 
-If you're interested in **backend architecture, DDD, or real-time systems** — feel free to reach out.
+I am open to conversations about backend development, real-time systems, TypeScript, architecture, and opportunities in tech.
 
-[![LinkedIn](https://img.shields.io/badge/Let's_talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
-[![Email](https://img.shields.io/badge/Send_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:duuhflow@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/eduardohnascimento/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:duuhflow@gmail.com)
 
 </div>
